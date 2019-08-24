@@ -109,4 +109,8 @@ export default App;
    // git config --global user.name "Albert"
 
 // Ahora, pasarlo con un snatshop (nuestro primer punto de parida) . El inicio de nuestro proyecto!:
-// git commit           // cambia la consola (editor de codigo en el terminal) "bin"?
+// git commit           // cambia la consola (editor de codigo en el terminal) "bin"? --> presionar "i" insertar comentario de commit..
+//.. presionar ESC, escribir (abajo) ":wq"..(muestra los cambios los archivos insertados, dice los IDs )
+// git log : da un hash (como un id) para diferenciar cada commit o snapshot o verison del programa (dice el dia del cambio, autor,message...)
+// git status ... (ahora dice que nada para commit por ahora) "ya se realizaron los cambios"
+// ahora se tiene un a manera de seguir esta primera version del programa! -->
