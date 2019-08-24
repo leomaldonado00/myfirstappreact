@@ -1,0 +1,28 @@
+{
+    "todos": [
+        {
+            "title": "Task 1",
+            "responsible": "Mark",
+            "description": "lorem cepillar",
+            "priority": "High"
+        },
+        {
+            "title": "Task 2",
+            "responsible": "Ryan",
+            "description": "lorem comer",
+            "priority": "High"
+        },
+        {
+            "title": "Task 3",
+            "responsible": "Joseph",
+            "description": "lorem lavar",
+            "priority": "low"
+        },
+        {
+            "title": "Task 4",
+            "responsible": "Rudolf",
+            "description": "lorem ver tv",
+            "priority": "medium"
+        }
+    ]
+}
