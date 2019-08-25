@@ -117,3 +117,5 @@ export default App;
 // git checkout -- index.html : para descartar algun cambio en el archivo index.html (por ejemplo.) // SE PUEDE TOMAR FOTOS DE CADA CAMBIO
 // PARA PODER VOLVER ...
 // PARA VER LAS DIFERENCIAS DE LOS CAMBIOS:  git diff src/App.js    (+ agregado, - quitado)
+// git add src/App.js : (por ejemplo) las que salgan en "modified" y queramos agregar dichas modificaciones
+// luego git commit para subirlo//: salen los detalles de cantidad de archivos cambiados, lineas agregadas y eliminadas, ej: 1 file changed, 4 insertions(+), 1 deletion(-)
