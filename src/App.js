@@ -99,27 +99,3 @@ class App extends Component {
 
 export default App;
 
-// git init
-// git status : permite ver los archivos que tenemos
-//git status: ver en que estado estan los archivos (working dir, staging a..)
-//git add <file(nombreArchivo)> : pasar un proyecto al staging area
-//  git commit (PRIMERA VEZ) :  //crear el primer snapshot o primer punto de partida..
-// CONFIGURAR: HAY QUE DECIRLE correo nombre.. ..
-   // git config --global user.email "albert_leo_maldonado@hotmail.com"
-   // git config --global user.name "Albert"
-
-// Ahora, pasarlo con un snatshop (nuestro primer punto de partida) . El inicio de nuestro proyecto!:
-// git commit           // cambia la consola (editor de codigo en el terminal) "bin"? --> presionar "i" insertar comentario de commit..
-//.. presionar ESC, escribir (abajo) ":wq"..(muestra los cambios los archivos insertados, dice los IDs )
-// git log : da un hash (como un id) para diferenciar cada commit o snapshot o version del programa (dice el dia del cambio, autor,message...)
-// git status ... (ahora dice que nada para commit por ahora) "ya se realizaron los cambios"
-// ahora se tiene un a manera de seguir esta primera version del programa! -->
-// git checkout -- index.html : para descartar algun cambio en el archivo index.html (por ejemplo.) // SE PUEDE TOMAR FOTOS DE CADA CAMBIO
-// PARA PODER VOLVER ...
-// PARA VER LAS DIFERENCIAS DE LOS CAMBIOS:  git diff src/App.js    (+ agregado, - quitado)
-// git add src/App.js : (por ejemplo) las que salgan en "modified" y queramos agregar dichas modificaciones
-// luego git commit para subirlo//: salen los detalles de cantidad de archivos cambiados, lineas agregadas y eliminadas, ej: 1 file changed, 4 insertions(+), 1 deletion(-)
-// git log: puede ver el HEAD -> MASTER (version en la que estamos)
-// cuando se quiere IGNORAR archivos: crear archivo .gitignore, anotar dentro de este los archivos que queremos ignorar. 
-// Luego git add .gitignore         ..o...
-// ... git commit -m "agregado archivo text a gitignore" : ALTERNATIVA PARA NO ABRIR EL EDITOR
