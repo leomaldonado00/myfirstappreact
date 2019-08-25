@@ -121,4 +121,5 @@ export default App;
 // luego git commit para subirlo//: salen los detalles de cantidad de archivos cambiados, lineas agregadas y eliminadas, ej: 1 file changed, 4 insertions(+), 1 deletion(-)
 // git log: puede ver el HEAD -> MASTER (version en la que estamos)
 // cuando se quiere IGNORAR archivos: crear archivo .gitignore, anotar dentro de este los archivos que queremos ignorar. 
-// Luego git add .gitignore
+// Luego git add .gitignore         ..o...
+// ... git commit -m "agregado archivo text a gitignore" : ALTERNATIVA PARA NO ABRIR EL EDITOR
