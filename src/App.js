@@ -99,4 +99,4 @@ class App extends Component {
 
 export default App;
 
-// EDIT en git
+// EDIT en git.
