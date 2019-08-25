@@ -108,9 +108,12 @@ export default App;
    // git config --global user.email "albert_leo_maldonado@hotmail.com"
    // git config --global user.name "Albert"
 
-// Ahora, pasarlo con un snatshop (nuestro primer punto de parida) . El inicio de nuestro proyecto!:
+// Ahora, pasarlo con un snatshop (nuestro primer punto de partida) . El inicio de nuestro proyecto!:
 // git commit           // cambia la consola (editor de codigo en el terminal) "bin"? --> presionar "i" insertar comentario de commit..
 //.. presionar ESC, escribir (abajo) ":wq"..(muestra los cambios los archivos insertados, dice los IDs )
 // git log : da un hash (como un id) para diferenciar cada commit o snapshot o verison del programa (dice el dia del cambio, autor,message...)
 // git status ... (ahora dice que nada para commit por ahora) "ya se realizaron los cambios"
 // ahora se tiene un a manera de seguir esta primera version del programa! -->
+// git checkout -- index.html : para descartar algun cambio en el archivo index.html (por ejemplo.) // SE PUEDE TOMAR FOTOS DE CADA CAMBIO
+// PARA PODER VOLVER ...
+// PARA VER LAS DIFERENCIAS DE LOS CAMBIOS:  git diff src/App.js    (+ agregado, - quitado)
