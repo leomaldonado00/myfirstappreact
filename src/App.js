@@ -31,12 +31,9 @@ class App extends Component {
         todos : this.state.todos.filter( (todo,index) => {
           return i !== index
         }
-  
         )
       })
-
     }
-    
   }
 
   render() {
